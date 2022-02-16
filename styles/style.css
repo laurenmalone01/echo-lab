@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@300;700&display=swap');
+
+body{
+  font-family: "Quicksand", sans-serif;
+background-color: #C5B5AC;
+}
+
+h3, label, p {
+  background-color: #FFF;
+}
+
+h3 {
+  color:teal;
+  font-family: "Quicksand:wght@300", sans-serif;
+}
+h4 {
+  color:teal;
+  font-family: "Quicksand:wght@300", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.card{
+  
+  margin-top: 1rem;
+}
+.draggable {
+   width: 90px; 
+   height: 90px; 
+   padding: 0.5em; 
+   float: left; 
+   margin: 0 10px 10px 0; 
+  }
+
+#dogeHouse {
+   width: 95%; 
+   height:300px; 
+   border:10px solid #E5340D; 
+   padding: 10px; 
+  background-color: #02C132;
+
+  }
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.dogePic{
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+}

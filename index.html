@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>malone-lab-echo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+  <nav class="navbar navbar-dark bg-secondary mx-auto">
+  <div class="container-fluid justify-content-center">
+    <span class="navbar-brand mb-0 h1">~ Cool Fun Games ~</span>
+  </div>
+</nav>
+
+  
+    
+
+  <div class="row">
+      
+
+      <div class="col-sm-4 mx-auto ">
+          <div class="card text-center">
+            <div class="card-body ">
+              <h4 class="card-title">Want Cool name facts?</h4>
+              <p class="card-text">Give me your name and your first born for some cool facts! </p>
+              <label for="userName">What's your name?</label>
+              <input type="text" id="userName" name="userName">
+              <button id="btnGetFacts" class="btn btn-secondary">👉🏽 click for facts 👈🏽</button>
+
+              <h2><span id="coolNameFactsOutput"></span></h2>
+              
+            </div><!--card body-->
+          </div><!-- card text center-->
+      </div> <!--col sm 4-->
+
+      <!-- space between the cards -->
+
+      <div class="col-sm-4 mx-auto">
+        <div class="card text-center">
+          <div class="card-body">
+            <h4 class="card-title">How much wow (THE GAME)</h4>
+            <!-- <p class="card-text">link to game </p> -->
+            <img class="dogePic" src="./img/doge.jpeg" alt="Card image cap">
+            <a href="https://laurenmalone01.github.io/shiny-shinee/" class="card-link">How much wow you has</a>
+
+            <!-- <a href="https://github.com/laurenmalone01/shiny-shinee" target="_blank" class="card-link">deploy + go to app</a> if you name traget thr same it will openin same tab. -->
+          </div><!--card body doge-->
+        </div><!-- card text center doge-->
+      </div><!--col sm 4 doge-->
+
+  </div> <!--row-->
+</div> <!--container-->
+
+<h2>App Improvements</h2>
+<ul>
+  <li>Solid background</li>
+  <li>Font is more cohesive and smaller</li>
+  <li>Doge pic has rounded edges</li>
+  <li>*Slightly* better title</li>
+  <li>Enter key triggers button for name game</li>
+</ul>
+
+
+
+  <footer class="footer bg-light text-center">
+    <div class="container">
+      <span class="text-muted">&copy bing bong 2022.</span>
+      <a href="https://github.com/laurenmalone01/echo-lab" target="_blank" class="card-link">View THIS Repository</a>
+      <!-- <a href=nu code" nu validator -->
+    </div>
+  </footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./scripts/script.js"></script>
+
+</body>
+</html>
